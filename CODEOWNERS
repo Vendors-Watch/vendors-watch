@@ -1,0 +1,4 @@
+# Security-sensitive automation changes should be reviewed by the Vendor Watch
+# maintainers, including Dependabot configuration and GitHub Actions workflows.
+.github/dependabot.yml @vendor-watch-maintainers
+.github/workflows/* @vendor-watch-maintainers
