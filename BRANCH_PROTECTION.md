@@ -5,8 +5,10 @@ before changes can merge. Reviews from code owners are required.
 
 This makes the ownership rules in [CODEOWNERS](./CODEOWNERS) enforceable:
 
-- `.github/dependabot.yml` requires approval from `@vendor-watch-maintainers`.
-- `.github/workflows/*` requires approval from `@vendor-watch-maintainers`.
+- `.github/dependabot.yml` requires approval from
+  `@Vendors-Watch/vendor-watch-maintainers`.
+- `.github/workflows/*` requires approval from
+  `@Vendors-Watch/vendor-watch-maintainers`.
 
 ## Required GitHub settings
 
@@ -28,8 +30,8 @@ Force pushes and branch deletion must remain disabled.
    Owners** is selected with one required approval.
 2. Open a test pull request that changes either `.github/dependabot.yml` or a
    file under `.github/workflows/`.
-3. Confirm GitHub requests `@vendor-watch-maintainers` and blocks merging until
-   an eligible code owner approves.
+3. Confirm GitHub requests `@Vendors-Watch/vendor-watch-maintainers` and blocks
+   merging until an eligible code owner approves.
 4. Push another commit after approval and confirm the stale approval is
    dismissed.
 
