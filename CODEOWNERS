@@ -3,3 +3,4 @@
 CODEOWNERS @Vendors-Watch/vendor-watch-maintainers
 .github/dependabot.yml @Vendors-Watch/vendor-watch-maintainers
 .github/workflows/* @Vendors-Watch/vendor-watch-maintainers
+# Temporary enforcement verification.
